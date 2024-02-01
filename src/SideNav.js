@@ -1,4 +1,6 @@
 import React from 'react'
+import './SideNav.css'
+import reddit_logo from './reddit_logo.png'
 
 function SideNav() {
   const menus = [
@@ -22,11 +24,13 @@ function SideNav() {
   return (
     <div className='sidenav'>
       <div className='sidenav_logo'>
-        <img src='' />
+        <img src={ reddit_logo } />
       </div>
       <div className='sidenav_search'>
         <input type='text' name='search' placeholder='Search' />
+        <i className='fas fa-search' />
       </div>
+      <hr />
       <div className='sidenav_links'>
         <ul className='sidenav_menu'>
           {menus.map(menu => (
