@@ -3,50 +3,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0.5em 0 2.5em;
+    margin: 0.5em 0 1.5em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background-image: linear-gradient(to right, whitesmoke, white);
 }
 
-.header a {
-    text-decoration: none;
-    color: #fd4500;
+.input {
+    padding: 8px 8px;
+    border: 1px solid #f4f5fa;
+    box-shadow: 2px 4px 2px 4px #f4f5fa;
+    border-radius: 25px;
+    position: relative;
+    outline-width: 0;
+    border: 2px solid gainsboro;
+    width: 100%;
 }
 
-.header_left ul {
-    display: flex;
-    align-items: center;
-}
-
-.header_left li a {
-    padding: 10px;
-    margin: 10px;
-    color: #808080;
-}
-
-.header_left a.active {
-    color: #fd4500;
-    border-bottom: #fd4500;
-}
-
-.header_right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header_right > * {
-    margin-left: 10px;
-}
-
-.header_right > img {
-    width: 25px;
-    border-radius: 50%;
-}
-
-.header_right > i {
-    font-size: 16px;
-    color: #808080;
-}
-
-.header_right > .header_right > span {
-    margin-right: 10px;
+.input > i {
+    right: 30px;
+    position: relative;
 }

@@ -1,0 +1,50 @@
+.nav_top {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em 0 1.5em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background-image: linear-gradient(to right, whitesmoke, white);
+}
+
+.nav_top a {
+    text-decoration: none;
+}
+
+.nav_left ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav_left li a {
+    padding: 10px;
+    margin: 10px;
+    color: #808080;
+}
+
+.all:hover {
+    color: #fd7200;
+    border-bottom: #fd7200;
+}
+
+.popular:hover {
+    color: #fd7200;
+    border-bottom: #fd7200;
+}
+
+.random:hover {
+    color: #fd7200;
+    border-bottom: #fd7200;
+}
+
+.ask:hover {
+    color: #fd7200;
+    border-bottom: #fd7200;
+}
+
+.today:hover {
+    color: #fd7200;
+    border-bottom: #fd7200;
+}

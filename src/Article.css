@@ -1,0 +1,15 @@
+.articles article {
+    padding: 15px 10px;
+}
+
+.articles article a {
+    text-decoration: none;
+}
+
+.articles article:nth-child(2n) {
+    background-color: gainsboro;
+}
+
+.articles article:hover {
+    background-color: #fd7200;
+}

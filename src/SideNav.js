@@ -1,22 +1,22 @@
-import React from 'react'
-import './SideNav.css'
-import reddit_logo from './reddit_logo.png'
+import React from 'react';
+import './SideNav.css';
+import reddit_logo from './reddit_logo.png';
 
 function SideNav() {
   const menus = [
-    { to: '/r/all', text: 'All'},
+    { to: '/r/all', text: 'Main Reddit Feed'},
     { to: '/r/popular/top/?t=week', text: 'Popular'}, 
     { to: '/r/AskReddit', text: 'Ask Reddit'}
   ]
   const subreddits = [
+    "webdev",
+    "todayilearned",
     "random",
     "pics",
     "videos",
     "funny",
     "jokes",
-    "todayilearned",
     "showerthoughts",
-    "webdev",
     "television",
     "uknews"
   ]
@@ -25,10 +25,6 @@ function SideNav() {
     <div className='sidenav'>
       <div className='sidenav_logo'>
         <img src={ reddit_logo } />
-      </div>
-      <div className='sidenav_search'>
-        <input type='text' name='search' placeholder='Search' />
-        <i className='fas fa-search' />
       </div>
       <hr />
       <div className='sidenav_links'>
@@ -48,4 +44,4 @@ function SideNav() {
   )
 }
 
-export default SideNav
+export default SideNav;

@@ -1,26 +1,46 @@
-import React from 'react'
-import './Header.css'
+import React, { useState, useEffect } from 'react';
+import './Header.css';
+import Article from './Article';
 
-export default function Header() {
+function Header() {
+
+    {/* --- Seems to be a repeat of code written into PostItem.js ----
+    ---- Want my header to be different, not incorporating the search function within, as that needs to be separate ----
+
+
+    const [articles, setArticles] = useState([]);
+
+    const [subreddit, setSubreddit] = useState('webdev');
+
+    useEffect(() => {
+        fetch('https://www.reddit.com/r/popular.json').then(res => {
+            if (res != 200) {
+                console.log('ERROR! ERROR!');
+                return;
+            }
+
+            res.json().then(data => {
+                if (data != null) {
+                    setArticles(data.data.children);
+                }
+            });
+        })
+    }, [subreddit]);
+
   return (
     <div className='header'>
-        <div className='header_left'>
-            <ul>
-                <li><a href='/r/all' className='active'>All</a></li>
-                <li><a href='/r/popular/top/?t=week'>Popular</a></li>
-                <li><a href='/r/random'>Random</a></li>
-                <li><a href='/r/AskReddit'>Ask Reddit</a></li>
-                <li><a href='/r/todayilearned'>Today I Learned</a></li>
-            </ul>
-        </div>
-        <div className='header_right'>
-            <i className='fas fa-bell'></i>
-            <img src='' />
-            <div className='header_user'>
-                <span>Nicky Jarvis</span>
-                <i className='fas fa-caret-down'></i>
-            </div>
+        <header className='search_header'>
+            <input type='text' className='input' value='popular' />
+        </header>
+        <div className='header_articles'>
+            // <Article /> 
         </div>
     </div>
-  )
+  );
 }
+*/}
+
+
+}
+
+export default Header;
