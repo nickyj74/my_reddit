@@ -1,6 +1,6 @@
-import './App.css';
-import SideNav from './SideNav';
-import Main from './Main';
+import './stylesheets/App.css';
+import SideNav from './components/SideNav';
+import Main from './components/Main';
 
 function App() {
   return (

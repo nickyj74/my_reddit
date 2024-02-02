@@ -1,6 +1,6 @@
 import React from 'react';
-import './SideNav.css';
-import reddit_logo from './reddit_logo.png';
+import '../stylesheets/SideNav.css';
+import reddit_logo from '../images/reddit_logo.png';
 
 function SideNav() {
   const menus = [

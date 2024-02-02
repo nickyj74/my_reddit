@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './PostItem.css';
+import '../stylesheets/PostItem.css';
 import Article from './Article';
 
 export default function PostItem(props) {
