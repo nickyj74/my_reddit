@@ -1,3 +1,41 @@
+# Project Title : my_reddit client app
+
+## Description
+
+This project was defined at the end of module 24 of the Codecademy Full-Stack Engineer path.
+
+
+### Features
+
+A Reddit Client which allows users to view a summary of reddit posts linked to the suggested search terms.
+External links, to enable the user to go directly to reddit to view them there.
+Search bar to enable users to search for their own subreddits that they would like to view 
+
+### How to Use
+
+The project is fully inclusive and doesn't require any external input from user.
+
+
+### Technologies
+
+HTML, Javascript, CSS, React JS
+
+
+### Collaborators
+
+I completed this project fully on my own
+
+
+### License
+
+There is no license attached to the project.
+
+
+
+-------------------------------------------------------------------------
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
