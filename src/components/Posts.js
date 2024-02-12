@@ -5,12 +5,8 @@ import '../stylesheets/Posts.css';
 function Posts() {
   const posts = [
     {
-      // upvote: 547,
-      // image: 'https://unsplash.com/photos/aerial-shot-of-forest-2Hzmz15wGik',
-      // title: 'Questions about new wallet',
-      // user: 'theindependentonline',
-      // subreddit: 'politics',
-      // comment_count: 284,
+      // Iniitally created a section for posts, but needed to be updated manually, went on to create a dynamic search and retrieve in the Home.js file
+      // Too nervous to delete this
     },
     
 ]
